@@ -3,6 +3,16 @@ body {
   font-family: Arial;
 }
 
+.jumbotron {
+  background-color: #F0F0F0;
+  padding: 35px;
+  margin-top: 30px;
+}
+
+.total {
+  color: lightcoral;
+}
+
 button, input {
   font-size: 100%;
   font-family: Arial;
@@ -48,4 +58,50 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.form-control:focus, .btn:active {
+  outline: #F0F0F0;
+  box-shadow: none;
+  border-color:#F0F0F0;
+}
+
+.btn {
+  margin: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-primary {
+  background-color: lightcoral;
+  padding-left: 30px;
+  padding-right: 30px;
+  border:none;
+  box-shadow: none;
+}
+
+.btn-primary:hover {
+  color:  #5D5D5D;
+  background-color: #F0F0F0;
+  border-color: lightcoral;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color:#F0F0F0;
+  border-color: #F0F0F0;
+  color: #5D5D5D;
+}
+
+.btn-secondary:hover {
+  color: white;
+  background-color:lightcoral;
+  border-color: lightcoral;
+  cursor: pointer;
 }
