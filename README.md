@@ -37,7 +37,7 @@
 
 ## Test
 
-Run node test and opened the application on the localhost, run the application offline and entered values then turned it online and refresh and watched the data syncing.
+Run node server.js and opened the application on the localhost, run the application offline and entered values then turned it online and refresh and watched the data syncing.
 
 ## Questions
 In case of any additional questions please visit my GitHub link: [Feda2020](https://github.com/Feda2020) 
